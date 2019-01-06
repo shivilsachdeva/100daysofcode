@@ -36,8 +36,10 @@ html{
 	min-width: 33%;
 	max-height: 30vh;
 	position: relative;
+}
 
-
-
-
+footer{
+	display: flex;
+	justify-content: end;
+	font: 0.2em;
 }
