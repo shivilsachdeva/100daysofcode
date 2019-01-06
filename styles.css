@@ -41,5 +41,5 @@ html{
 footer{
 	display: flex;
 	justify-content: end;
-	font: 0.2em;
+	font-size: 12px;
 }
