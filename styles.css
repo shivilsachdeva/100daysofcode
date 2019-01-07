@@ -77,16 +77,53 @@ html, body{
 	padding: 0;
 	list-style: none;
 	display: inline-block;
-	border: solid 2px red;
+	line-height: 3;
+
 }
 
 .social-links li{
 	float: left;
+	font-size: 2em;
+	width: 2em;
 }
 
-/*.social-links li:not(:first-child){
-	margin-left: 8px;
+/*.social-links li:hover .fab{
+	color: black;
+	background: transparent;
+	transition: 0.5s ease-out; 
 }*/
+
+.fab{
+	font-size: 100%;
+	color: white;
+	background: transparent;
+	border-radius: 222px;
+	text-align: center;
+	border-radius: 300px;
+	line-height: 2 !important;
+}
+
+.fa-medium:hover{
+	color: black;
+}
+
+.fa-twitter:hover{
+	color: #38A1F3;
+}
+
+.fa-instagram:hover{
+	color: #C13584;
+}
+
+.fa-linkedin:hover{
+	color: #0077B5;
+}
+
+
+
+.social-links li:not(:first-child){
+	margin-left: 18px;
+}
 
 
 
