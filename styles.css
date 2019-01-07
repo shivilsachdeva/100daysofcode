@@ -73,12 +73,12 @@ html, body{
 }
 
 .social-links{
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: inline-block;
 	line-height: 3;
-
+	text-align: center;
 }
 
 .social-links li{
@@ -142,7 +142,7 @@ html, body{
 
 
 .social-links li:not(:first-child){
-	margin-left: 18px;
+	/* margin-left: 18px; */
 }
 
 
