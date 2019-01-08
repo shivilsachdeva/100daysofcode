@@ -1,12 +1,10 @@
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    console.log("scroll height: " + scroll)
 
-/* This is being done using CSS 
-$(".fa-medium").hover(
-  function () {
-    $(this).addClass('medium');
-  }, 
-  function () {
-    $(this).removeClass("medium");
-  }
-);
-									*/ 
-
+    if (scroll >= 770) {
+        $("nav ul li a").addClass("darkNav");
+    } else {
+        $("nav ul li a").removeClass("darkNav");
+    }
+});

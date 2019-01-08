@@ -6,6 +6,44 @@ html, body{
 	font-size: 16px;
 }
 
+nav ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background: inherit;
+  	position: fixed;
+  	right: 0;
+  	z-index: 1;
+}
+
+nav ul li{
+  	float: left;
+}
+
+nav ul li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	font-family: 'Roboto Mono', monospace;
+  	font-size: 1em;
+  	font-weight: 300;
+  	padding: 12px 14px;
+  	text-decoration: none;
+  	opacity: 0.8;
+  	border-radius: 30px;
+}
+
+nav ul li a:hover{
+	opacity: 1;
+	transition: 0.3s ease;
+}
+
+.darkNav{
+	color: #9eabe4;
+	transition: 0.2s ease-in;
+}
+
 .hero{
 	height: 100vh;
 	display: flex;
