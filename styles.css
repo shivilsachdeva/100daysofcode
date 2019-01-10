@@ -182,10 +182,88 @@ nav ul li a:hover{
 	/* margin-left: 18px; */
 }
 
-#log{
+.log-title{
+	margin: 0;
+	padding: 12px;
 	text-align: center;
+	font-size: 3.5em; 
+	color: #71e6fa;
+	font-family: 'Roboto Mono', monospace;
+	background: #1D1F21;
 }
 
+.log{
+	margin: 0 auto;
+	padding: 12px;
+
+}
+
+.day{
+	border-bottom: solid 1px #1D1F21;
+	background: #F7F7F7;
+}
+
+.day:hover{
+	background: #E3E7EA;
+	transition: 0.9s ease;
+}
+
+.daily-info{
+	background: #E3E7EA;
+	width: 130px;
+	height: 100%;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-top: 0px;
+	padding-right: 12px;
+}
+
+.daily-info:hover{
+	background: #EDEDED;
+}
+
+.count{
+	color: #1D1F21;
+	font-family: 'Cinzel', serif;
+	font-size: 2em;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 2px;
+	}
+
+.time-of-day{
+	margin: 0;
+	font-size: 11px;
+}
+
+.time-of-day i{
+	font-size: 0.8em;
+	margin: 0;
+	color: #1D1F21;
+	opacity: 0.9;
+}
+
+.date{
+	color: #1d1f21;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+	font-weight: 50;
+	margin-right: 5px;
+}
+
+.time{
+	color: #1d1f21;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+	font-weight: 50;
+}
+
+.log-description{
+	margin: 10px;
+	padding: 12px;
+	text-align: center;
+}
 
 footer{
 	margin-right: 12px;
