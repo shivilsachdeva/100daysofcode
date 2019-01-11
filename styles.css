@@ -74,6 +74,34 @@ nav ul li a:hover{
 	box-shadow: 2px 3px 24px 8px  #1D1F21;
 }
 
+/* 
+
+hero title hover
+*requires media query
+
+.hero-container:hover{
+	background: transparent;
+	box-shadow: none;
+	transition: 0.5168517729s ease-in;
+}
+
+.hero-container:hover #hero-title{
+	color: #1D1F21;
+	transition: 0.5168517729s ease-in;
+}
+
+.hero-container:hover #hero-subtitle{
+	color: #1D1F21;
+	transition: 0.5168517729s ease-in;
+}
+
+.hero-container:hover .inText-code{
+	color: white;
+	transition: 0.5168517729s ease-in;
+}
+
+*/
+
 .hero-container p{
 	margin: 0;
 	padding: 0;
