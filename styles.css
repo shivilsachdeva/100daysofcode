@@ -293,6 +293,17 @@ hero title hover
 	text-align: center;
 }
 
+.day ol{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.day ul{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
 footer{
 	margin-right: 12px;
 	text-align: end;
