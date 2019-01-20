@@ -242,6 +242,14 @@ hero title hover
 	padding-right: 12px;
 }
 
+.week{
+	width: 150px;
+}
+
+.week > .time-of-day {
+	text-align: center;
+}
+
 .daily-info:hover{
 	background: #EDEDED;
 }
