@@ -206,10 +206,6 @@ hero title hover
 
 }
 
-.social-links li:not(:first-child){
-	/* margin-left: 18px; */
-}
-
 .log-title{
 	margin: 0;
 	padding: 12px;
